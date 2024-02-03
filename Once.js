@@ -26,3 +26,6 @@ function once(fn) {
 }
 
 // or
+
+const once = (fn, cnt = 0) =>
+  (...args) => cnt++ ? undefined : fn(...args);
