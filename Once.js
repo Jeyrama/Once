@@ -13,3 +13,14 @@ For example:
 
 
 // Solution
+
+function once(fn) {
+  let isCall = false;
+  
+  return (...arg) => {
+    if (!isCall) {
+      isCall = true;
+      return fn(...arg);
+    }
+  }
+}
