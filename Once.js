@@ -24,3 +24,5 @@ function once(fn) {
     }
   }
 }
+
+// or
