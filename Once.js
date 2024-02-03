@@ -10,3 +10,6 @@ For example:
   logOnce("foo") // -> "foo"
   logOnce("bar") // -> no effect
 */
+
+
+// Solution
